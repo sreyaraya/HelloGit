@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #053178;
+    font-family: 'Bodoni MT', sans-serif;
+    display:flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn{
+    width: 400px;
+    height: 200px;
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+   
+}
+
+.btn:hover{
+    opacity: .9;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn.show {
+    background-color:#053178;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
